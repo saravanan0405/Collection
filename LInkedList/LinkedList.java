@@ -88,7 +88,7 @@ public class LinkedList
             Node temp = head;
             Node prev = null;
             if(pos == 0)
-            {
+            {	
             	head = head.next;
             }
             else

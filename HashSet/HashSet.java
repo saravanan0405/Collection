@@ -22,7 +22,7 @@ class HashSet<T>
 	HashSet(int capacity)
 	{
 		no_Of_Bucket = capacity;
-		Bucket = new HashNode[capacity];
+		Bucket = new HashNode[no_Of_Bucket];
 		size = 0;
 	}
 	
